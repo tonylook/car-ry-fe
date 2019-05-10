@@ -8,6 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('adverts');
+  this.route('new');
 });
 
 export default Router;
