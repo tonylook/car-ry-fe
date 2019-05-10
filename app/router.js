@@ -13,6 +13,10 @@ Router.map(function() {
   this.route('edit', {
     path: ':advert_id/edit'
   });
+
+  this.route('delete', {
+    path: ':advert_id/delete'
+  });
 });
 
 export default Router;
