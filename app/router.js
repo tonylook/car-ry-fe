@@ -9,6 +9,10 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('adverts');
   this.route('new');
+
+  this.route('edit', {
+    path: ':advert_id/edit'
+  });
 });
 
 export default Router;

@@ -18,6 +18,11 @@
           <td>{{advert.newIs}}</td>
           <td>{{advert.mileage}}</td>
           <td>{{advert.firstRegistration}}</td>
+          <td>
+            {{#link-to "edit" advert.id}}
+              <button class="ui button">Edit</button>
+            {{/link-to}}
+          </td>
         </tr>
       {{/each}}
     </tbody>
