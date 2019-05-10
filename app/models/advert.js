@@ -5,7 +5,7 @@ export default DS.Model.extend({
     title: DS.attr('string'),
     fuel: DS.attr('string'),
     price: DS.attr('number'),
-    isNew: DS.attr('boolean'),
+    newIs: DS.attr('boolean'),
     mileage: DS.attr('number'),
     firstRegistration: DS.attr('date')
 });

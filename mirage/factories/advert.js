@@ -10,7 +10,7 @@ export default Factory.extend({
         price() {
           return faker.random.number();
         },
-        isNew() {
+        newIs() {
           return faker.random.boolean();
         },
         mileage() {
