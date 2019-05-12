@@ -25,12 +25,12 @@
 <div class="field">
   <label>Mileage</label>
   <div class="ui input">
-    {{input type="number" value=model.mileage}}
+    {{input type="number" value=model.mileage disabled=model.newIs}}
   </div>
 </div>
 <div class="field">
   <label>First Registration</label>
   <div class="ui input">
-    {{input type="date" value=model.firstRegistration}}
+    {{input type="date" value=model.firstRegistration disabled=model.newIs}}
   </div>
 </div>
