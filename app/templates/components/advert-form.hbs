@@ -25,7 +25,11 @@
 <div class="field">
   <label>Mileage</label>
   <div class="ui input">
-    {{input type="number" value=model.mileage disabled=model.newIs}}
+    {{#if model.newIs}}
+      {{input type="number" disabled=model.newIs value=""}}
+    {{else}}
+      {{input type="number" disabled=model.newIs value=model.mileage}}
+    {{/if}}
   </div>
 </div>
 <div class="field">
