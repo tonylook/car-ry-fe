@@ -17,7 +17,7 @@
           <td>{{advert.price}}</td>
           <td>{{advert.newIs}}</td>
           <td>{{advert.mileage}}</td>
-          <td>{{advert.firstRegistration}}</td>
+          <td>{{moment-format advert.firstRegistration "YYYY-MM-DD"}}</td>
           <td>
             {{#link-to "edit" advert.id}}
               <button class="ui button">Edit</button>
