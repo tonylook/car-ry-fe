@@ -6,7 +6,7 @@ export default function() {
     this.get('/adverts');
     this.post('/adverts');
     this.get('/adverts/:id');
-    this.patch('/adverts/:id');
+    this.put('/adverts/:id');
     this.del('/adverts/:id');
 
 }
