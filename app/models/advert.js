@@ -7,5 +7,5 @@ export default DS.Model.extend({
     price: DS.attr('number'),
     newIs: DS.attr('boolean'),
     mileage: DS.attr('number'),
-    firstRegistration: DS.attr('date')
+    firstRegistration: DS.attr()
 });

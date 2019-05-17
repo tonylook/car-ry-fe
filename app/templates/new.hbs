@@ -2,7 +2,7 @@
   <div class="sixteen wide column">
     <form {{action "save" model on="submit"}} >
       <div class="ui segment">
-        {{advert-form model=model}}
+        {{advert-form model=newModel}}
       </div>
       <button type="submit" class="ui primary button">Add advert</button>
       {{#link-to "adverts" }}

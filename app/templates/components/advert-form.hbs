@@ -35,6 +35,10 @@
 <div class="field">
   <label>First Registration</label>
   <div class="ui input">
-    {{input type="date" value=model.firstRegistration disabled=model.newIs}}
+    {{#if model.newIs}}
+      {{input type="date" disabled=model.newIs value=""}}
+    {{else}}
+      {{input type="date" disabled=model.newIs value=model.firstRegistration}}
+    {{/if}}
   </div>
 </div>
